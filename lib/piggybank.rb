@@ -15,4 +15,7 @@ class PiggyBank
     'cling!'
   end
 
+  def break
+    @balance
+  end
 end

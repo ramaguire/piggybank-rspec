@@ -15,4 +15,9 @@ describe PiggyBank do
     expect{subject.shake}.to raise_error 'tumbleweed...'
   end
 
+  it 'returns balance in piggybank' do
+    subject.deposit(12)
+    expect(subject.break).to eq 12
+  end
+
 end
